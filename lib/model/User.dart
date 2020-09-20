@@ -1,7 +1,6 @@
 
-
 class User{
-  final String index;
+  final int index;
   final String name;
   final String email;
   final String about;

@@ -21,8 +21,9 @@ class _HomePageState extends State<HomePage> {
 
   Future<List<User>> _getUsers() async
   {
-    var data = await http.get("http://www.json-generator.com/api/json/get/cfwZmvEBbC?indent=2");
+    var data = await http.get("http://www.json-generator.com/api/json/get/bVFhlQdALC?indent=2");
     var jsonData = json.decode(data.body);
+
     List<User> users = [];
 
     for (var u in jsonData) {
