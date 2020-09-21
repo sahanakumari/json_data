@@ -12,9 +12,20 @@ DetailPage(this.user);
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(user.name,)
+        title: Text(user.name,),
       ),
+    body:Center(
+   child: Column(
+children:<Widget> [
+  Expanded(child: Text(user.name)),
+  Expanded(child: Text(user.email)),
+  Expanded(child: Text(user.about)),
 
+],
+
+   ),
+    ),
     );
+
   }
 }

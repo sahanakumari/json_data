@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
     List<User> users = [];
 
     for (var u in jsonData) {
-      User user = User(u["index"], u["name"], u["email"], u["picture"], u["about"]);
+      User user = User(u["index"], u["name"], u["email"], u["about"], u["picture"]);
 
 
       users.add(user);
